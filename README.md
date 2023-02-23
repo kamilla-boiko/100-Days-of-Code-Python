@@ -13,5 +13,9 @@
 
 [Day 5](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day05): Python Loops
 
+[Day 6](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day06): Python Functions & Karel
+
+[Day 7](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day07): Hangman
+
 ## 🛠️ Tools and Technologies Covered
 * Python 3
