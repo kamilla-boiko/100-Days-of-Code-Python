@@ -17,5 +17,11 @@
 
 [Day 7](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day07): Hangman
 
+[Day 8](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day08): Function Parameters & Caesar Cipher
+
+[Day 9](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day09): Dictionaries, Nesting and the Secret Auction
+
+[Day 10](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day10): Functions with Outputs
+
 ## 🛠️ Tools and Technologies Covered
 * Python 3
