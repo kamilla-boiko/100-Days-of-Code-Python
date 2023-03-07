@@ -1,7 +1,17 @@
-import replit
+from os import system, name
 
 
-logo = """
+def clear():
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+
+    # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system('clear')
+
+
+logo = '''
                          ___________
                          \         /
                           )_______(
@@ -13,7 +23,7 @@ logo = """
                          /_________\\
                        .-------------.
                       /_______________\\
-"""
+'''
 
 print(logo)
 print("Welcome to the secret auction program.")
@@ -29,7 +39,7 @@ while should_continue.lower() == "yes":
 
     should_continue = input("Are there any other bidders? Type 'yes' or 'no'.\n")
 
-    replit.clear()  # to clear the output in the console
+    clear()
 
 winner_name = ""
 winner_bid = 0
