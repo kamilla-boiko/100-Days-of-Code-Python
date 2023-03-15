@@ -23,5 +23,17 @@
 
 [Day 10](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day10): Functions with Outputs
 
+[Day 11](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day11): The Blackjack Capstone Project
+
+[Day 12](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day12): Scope & Number Guessing Game
+
+[Day 13](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day13): Debugging: How to Find and Fix Errors in your Code
+
+[Day 14](https://github.com/kamilla-boiko/100DaysOfCodePython/tree/main/Day14): Higher Lower Game Project
+
+## 📚 Intermediate
+
+Day 15: Local Development Environment Setup & the Coffee Machine
+
 ## 🛠️ Tools and Technologies Covered
 * Python 3
