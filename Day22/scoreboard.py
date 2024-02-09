@@ -2,6 +2,7 @@ from turtle import Turtle
 
 ALIGNMENT = "center"
 FONT = ("Garamond", 40, "normal")
+GAME_OVER = ("Garamond", 20, "normal")
 
 
 class Scoreboard(Turtle):
@@ -34,4 +35,4 @@ class Scoreboard(Turtle):
         if self.r_score > self.l_score:
             winner = "RIGHT"
         self.goto(0, 0)
-        self.write(f"GAME OVER! {winner} PLAYER IS WINNER!", align=ALIGNMENT, font=FONT)
+        self.write(f"GAME OVER! {winner} PLAYER IS WINNER!", align=ALIGNMENT, font=GAME_OVER)
