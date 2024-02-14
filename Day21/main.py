@@ -37,24 +37,24 @@ def play():
 
         # Collision with wall
         if snake.head.xcor() > 295 or snake.head.xcor() < -295 or snake.head.ycor() > 295 or snake.head.ycor() < -295:
-            game_is_on = False
-            scoreboard.game_over()
+            scoreboard.reset()
+            snake.reset()
 
         # Eat the tail
         for segment in snake.segments[1:]:
             if snake.head.distance(segment) < 10:
-                game_is_on = False
-                scoreboard.game_over()
+                scoreboard.reset()
+                snake.reset()
 
         # Retry the game
-        if not game_is_on:
-            answer = screen.textinput(
-                title="GAME OVER",
-                prompt=f"Your score is {scoreboard.score}!\nDo you want to restart? (y/n)"
-            )
-            if answer == "y":
-                screen.clearscreen()
-                play()
+        # if not game_is_on:
+        #     answer = screen.textinput(
+        #         title="GAME OVER",
+        #         prompt=f"Your score is {scoreboard.score}!\nDo you want to restart? (y/n)"
+        #     )
+        #     if answer == "y":
+        #         screen.clearscreen()
+        #         play()
 
     screen.exitonclick()
 
