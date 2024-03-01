@@ -1,6 +1,6 @@
 # Day 23 Project: The Turtle Crossing Game
 
-Tha game is similar concept to Crossy Road. 
+The game is similar concept to Crossy Road. 
 
 There is a whole bunch of cars going across a super busy multi-lane highway 
 and the turtle is the player who has to cross the road. 
